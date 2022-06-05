@@ -146,7 +146,7 @@ export function getFloatInfo(n: number) {
  * 判断参数是否是一个函数
  */
 export function isFunction(o: any) {
-  return getType(o) === VariableType.bUndefined;
+  return getType(o) === VariableType.bFunction;
 }
 
 //#region 常用的类型断言器

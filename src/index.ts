@@ -6,14 +6,14 @@ class2type.set('number', VariableType.bNumber);
 class2type.set('boolean', VariableType.bBoolean);
 class2type.set('string', VariableType.bString);
 class2type.set('function', VariableType.bFunction);
-class2type.set('object Boolean', VariableType.bBoolean);
-class2type.set('object Number', VariableType.bNumber);
-class2type.set('object String', VariableType.bString);
-class2type.set('object Function', VariableType.bFunction);
-class2type.set('object RegExp', VariableType.bRegExp);
-class2type.set('object Array', VariableType.bArray);
-class2type.set('object Date', VariableType.bDate);
-class2type.set('object Error', VariableType.bError);
+class2type.set('[object Boolean]', VariableType.bBoolean);
+class2type.set('[object Number]', VariableType.bNumber);
+class2type.set('[object String]', VariableType.bString);
+class2type.set('[object Function]', VariableType.bFunction);
+class2type.set('[object RegExp]', VariableType.bRegExp);
+class2type.set('[object Array]', VariableType.bArray);
+class2type.set('[object Date]', VariableType.bDate);
+class2type.set('[object Error]', VariableType.bError);
 const coreToString = Object.prototype.toString;
 
 /**

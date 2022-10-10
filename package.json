@@ -1,6 +1,6 @@
 {
   "name": "roy-type-assert",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "The utility which is used to assert a variable&#39;s type",
   "author": "bluefox",
   "types": "dist/index.d.ts",

@@ -177,6 +177,10 @@ export function isArray<T>(o: any): o is Array<T> {
 export function isDate(o: any): o is Date {
   return getType(o) === VariableType.bDate;
 }
+
+export function isPromise<T>(o: any): o is Promise<T> {
+  return o && typeof o.then === 'function' && typeof o.catch === 'function';
+}
 //#endregion
 
 export { VariableType };
